@@ -29,7 +29,7 @@ function App() {
       </div>
       <div className="subHeading">
         <br />
-        <h2>Whoop, it's {date} 🌝 ☕ </h2>
+        <h2> it's {date} </h2>
       </div>
       <div className="input">
         <input type="text" value={toDo} onChange={(e)=>setToDo(e.target.value)} placeholder="🖊️ Add item..." />
